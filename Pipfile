@@ -1,0 +1,19 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "*"
+transformers = "*"
+pillow = "*"
+geoclip = "*"
+folium = "*"
+ipykernel = "*"
+
+[dev-packages]
+ipykernel = "*"
+ipywidgets = "*"
+
+[requires]
+python_version = "3.10"
